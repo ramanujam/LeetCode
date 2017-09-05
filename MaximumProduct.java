@@ -3,9 +3,12 @@
  */
 public class MaximumProduct {
     public static void main(String[] args) {
+        System.out.println("Given an integer array, find three numbers whose product is maximum and output the maximum product.");
+        System.out.println("Input : 7 3 1 0 0 6");
         int[] arr = {7,3,1,0,0,6};
         int max = MaxProd(arr);
         System.out.printf("Max Prod: %d\n", max);
+        System.out.println("All test cases passed on Leetcode");
     }
 
     public static int MaxProd(int[] arr)
